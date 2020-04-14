@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/pcdt/index",
+    "pages/album/index",
+    "pages/henping/index",
+    "pages/mine/index",
+    "pages/search/index",
+    "pages/video/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "height": "50px",
+    "fontSize": "10px",
+    "iconWidth": "24px",
+    "spacing": "3px",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "iconPath": "static/image/sy1.png",
+        "selectedIconPath": "static/image/sy.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/henping/index",
+        "iconPath": "static/image/hp.png",
+        "selectedIconPath": "static/image/hp1.png",
+        "text": "横屏"
+      },
+      {
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/image/wd1.png",
+        "selectedIconPath": "static/image/wd.png",
+        "text": "我的"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "iconPath": "static/image/ss1.png",
+        "selectedIconPath": "static/image/ss.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/video/index",
+        "iconPath": "static/image/sp.png",
+        "selectedIconPath": "static/image/sp1.png",
+        "text": "精美视频"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap45.json"
+}

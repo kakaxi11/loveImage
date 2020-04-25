@@ -1,1 +1,1 @@
-<view>分类</view>
+<view class="big data-v-5cb823ba"><block wx:for="{{catelist}}" wx:for-item="item" wx:for-index="__i0__" wx:key="id"><navigator class="item data-v-5cb823ba" url="{{'/pages/imgd/index?id='+item.id}}"><image src="{{item.cover}}" mode="aspectFill" class="data-v-5cb823ba"></image><view class="text data-v-5cb823ba">{{item.name}}</view></navigator></block></view>

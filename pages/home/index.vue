@@ -43,7 +43,7 @@ export default {
 		 data() {
 		        return {
 		            items:[{tittle:'推荐'},{tittle:'分类'},{tittle:'最新'},{tittle:'专辑'}],
-		            current: 0
+		            current: 1
 		        }
 		    },
 		    methods: {

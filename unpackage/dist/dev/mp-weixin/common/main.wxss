@@ -58,8 +58,9 @@ page {
 }
 image{
 	width: 100%;
-	display: block;
+	display:block;
 }
+/* 这里调整全局样式css,比如margin padding去掉浏览器默认的改为0 */
 @font-face {
   font-family: 'iconfont';  /* project id 1754300 */
   src: url('https://at.alicdn.com/t/font_1754300_ijnncf7mqnf.eot');

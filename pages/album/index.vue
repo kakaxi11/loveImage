@@ -26,7 +26,7 @@
 		
 		<view class="itemimg" v-for="(item,index) in wallpaperst" :key="item.id" >
 				<godetail :list="wallpaperst" :index="index">
-			<image :src="item.thumb+item.rule.replace('$<Height>',360)" alt="" mode="widthFix"></image>
+			<image :src="item.thumb+item.rule.replace('$<Height>',360)" alt="" mode="aspectFill"></image>
 			<!-- 通过url调整请求的图片大小。 -->
 				</godetail>
 		</view>
@@ -163,7 +163,9 @@
 	  .itemimg {
 		  width:33.33%;
 		  border:3rpx solid #ffffff;
+		
 	    image{
+			  height: 130rpx;
 	    }
 	  }
 	}

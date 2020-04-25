@@ -96,4 +96,7 @@
     width: 33.33%;
     border: 3rpx solid #ffffff;
 }
+.dibu .itemimg image.data-v-6c0e1574 {
+      height: 130rpx;
+}
 

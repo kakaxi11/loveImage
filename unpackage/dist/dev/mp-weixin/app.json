@@ -1,12 +1,14 @@
 {
   "pages": [
     "pages/home/index",
+    "pages/vdxiangqing/index",
+    "pages/imgd/index",
     "pages/pcdt/index",
     "pages/album/index",
+    "pages/video/index",
     "pages/henping/index",
-    "pages/mine/index",
     "pages/search/index",
-    "pages/video/index"
+    "pages/mine/index"
   ],
   "subPackages": [],
   "window": {
@@ -38,10 +40,10 @@
         "text": "横屏"
       },
       {
-        "pagePath": "pages/mine/index",
-        "iconPath": "static/image/wd1.png",
-        "selectedIconPath": "static/image/wd.png",
-        "text": "我的"
+        "pagePath": "pages/video/index",
+        "iconPath": "static/image/sp.png",
+        "selectedIconPath": "static/image/sp1.png",
+        "text": "精美视频"
       },
       {
         "pagePath": "pages/search/index",
@@ -50,13 +52,13 @@
         "text": "搜索"
       },
       {
-        "pagePath": "pages/video/index",
-        "iconPath": "static/image/sp.png",
-        "selectedIconPath": "static/image/sp1.png",
-        "text": "精美视频"
+        "pagePath": "pages/mine/index",
+        "iconPath": "static/image/wd1.png",
+        "selectedIconPath": "static/image/wd.png",
+        "text": "我的"
       }
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap45.json"
+  "sitemapLocation": "sitemap47.json"
 }
